@@ -24,7 +24,7 @@ $(call inherit-product, device/samsung/gt58ltebmc/device.mk)
 PRODUCT_DEVICE := gt58ltebmc
 PRODUCT_NAME := lineage_gt58ltebmc
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-T350
+PRODUCT_MODEL := SM-T357W
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_CHARACTERISTICS := tablet
 
