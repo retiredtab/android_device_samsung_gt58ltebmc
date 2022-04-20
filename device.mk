@@ -97,6 +97,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/bluetooth/iop_bt.db:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/iop_bt.db \
     $(LOCAL_PATH)/configs/bluetooth/iop_device_list.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/iop_device_list.conf
+
+# Bluetooth / FM / APTX
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gt58ltebmc/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
+    vendor/samsung/gt58ltebmc/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/samsung/gt58ltebmc/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/samsung/gt58ltebmc/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
     
 # Device specific properties
 PRODUCT_PROPERTY_OVERRIDES += \
