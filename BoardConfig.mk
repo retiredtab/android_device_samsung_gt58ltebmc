@@ -30,7 +30,7 @@ PLATFORM_PATH := device/samsung/gt58ltebmc
 TARGET_LIBINIT_MSM8916_DEFINES_FILE := $(PLATFORM_PATH)/init/init_gta.cpp
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := gt58ltebmc,gt58ltebmcxx,SM-T357W
+TARGET_OTA_ASSERT_DEVICE := gt58ltebmc,gt58ltebmcxx,SM-T357W,SM-T355Y,gt58ltexx,SM-T355,gt58lte,gt58ltedo
 
 # Low Latency
 AUDIO_USE_LL_AS_PRIMARY_OUTPUT := true
