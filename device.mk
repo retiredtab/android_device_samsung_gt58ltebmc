@@ -124,8 +124,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	use.voice.path.for.pcm.voip=true
 
 # Camera
-PRODUCT_PACKAGES += \
-	libqc-opt
+#PRODUCT_PACKAGES += \
+#	libqc-opt
 
 # Configs
 PRODUCT_COPY_FILES += \
@@ -163,5 +163,5 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.nxp.mifare.xml
 
 # Ramdisk
-PRODUCT_PACKAGES += \
-	init.target.rc
+#PRODUCT_PACKAGES += \
+#	init.target.rc
